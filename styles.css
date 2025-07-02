@@ -17,6 +17,45 @@
   font-style: regular;
 }
 
+@font-face {
+  font-family: "the-last-shuriken";
+  src: url(fonts/the-last-shuriken.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Karate";
+  src: url(fonts/karate.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Manga Style";
+  src: url(fonts/manga-style.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.the-last-shuriken {
+  font-family: "the-last-shuriken";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.karate {
+  font-family: "Karate";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.manga-style {
+  font-family: "Manga Style";
+  font-weight: 400;
+  font-style: normal;
+}
+
 .head {
     background-color: orange;
     color:white;

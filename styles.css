@@ -1,0 +1,179 @@
+.playpen {
+  font-family: "Playpen Sans Thai", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.bangers-regular {
+  font-family: "Bangers", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.manufacturing-consent-regular {
+  font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-style: regular;
+}
+
+.head {
+    background-color: orange;
+    color:white;
+}
+
+.inline-bg {
+  background-color: cyan;
+  color: black;
+  display: inline;
+  padding: 1px 5px;
+  border-radius: 12px;
+}
+
+.inline-bg2 {
+  background-color: black;
+  color: white;
+  display: inline;
+  padding: 1px 5px;
+  border-radius: 12px;
+}
+
+.my-rounded {
+  border-radius: 12px;
+}
+
+body {
+  background-image: url("images/pg_web.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0%;
+}
+
+.container {
+  width: 100%;
+  height: 45px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.full-bar {
+  width: 100vw;
+  height: 45px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 25px;
+  padding: 0;
+}
+
+.cover1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(254,191,1,1) 0%,rgba(252,231,169,1) 34%,rgba(249,191,29,1) 54%,rgba(247,224,163,1) 76%,rgba(254,191,1,1) 100%);
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: Times New Roman, Serif;
+  color: rgba(30, 20, 0, 100);
+  text-shadow: 0 2px 0 rgba(255, 255, 255,0.5);
+  margin: 0;
+  padding: 0;
+}
+
+.my-rounded-left {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.my-rounded-right {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.my-rounded-all {
+  border-radius: 15px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.bg-programming1 {
+  flex: 1;
+  color: white;
+  background-image: url("images/bg-2.webp");
+  background-position: center;
+  background-repeat: no-repeat;;
+  background-size: cover;
+  padding: 0%;
+}
+
+.bg-programming2 {
+  flex: 1;
+  color: white;
+  background-image: url("images/bg-3.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0%;
+}
+
+.bg-programming3 {
+  flex: 1;
+  color: white;
+  background-image: url("images/bg-4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0%;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.p-4 {
+  padding:20px;
+  flex: 1;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 20rem;
+  margin: 0 auto;
+}
+
+.skills img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.glass-liquid {
+border-radius: 45px;
+background: rgba(255, 255, 255, 0.15);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(8.1px);
+-webkit-backdrop-filter: blur(8.1px);
+border: 1px solid rgba(255, 255, 255, 0.26);
+}
+
+.custom-card {
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5px;
+}
+
+.custom-body {
+  background-color: transparent;
+}
